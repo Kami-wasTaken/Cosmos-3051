@@ -23,19 +23,8 @@ header{
     z-index: 10000;
 
 }
-header .name{
-    background-image: linear-gradient(to right, #ffffff 63.64%, #F07860 36.36%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 1.5vw;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
+
+
 
 header ul{
     display: flex;
@@ -45,8 +34,8 @@ header ul{
 
 header ul li{
     list-style: none;
-    margin-left: 30px;
-    margin-right: 60px;
+    margin-left: 3vw;
+    margin-right: 4vw;
 }
 
 header ul li a{
@@ -63,12 +52,41 @@ header ul li a{
     box-sizing: border-box;
 }
 
+.cosmos3051{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+#cosmos{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 5%;
+    color: #fff;
+
+}
+
+#num{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#F07860;
+}
+
+
+
 #pages{
     position: relative;
     text-decoration: none;
     letter-spacing: 0.5px;
     padding: 0 10px;
-    font-size: 18px;
+    font-size: 1.125rem;
 
 }
 #pages:after{
@@ -88,29 +106,24 @@ header ul li a{
 
 #home{
     position: relative;
-    width: 1860px;
-    height: 1000px;
-    padding: 300px 70px;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    height: 100vh;
+    padding: 15% 3.5%;
+    justify-content: top;
+    align-items: left;
 }
 
-#stars{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1860px;
-    height: 700px;
-    object-fit: cover;
-    z-index: 1;
-}
+
 
 #planet{
     position: absolute;
     transform: rotate(-82deg);
-    right: -160px;
-    top: 85px;
-    max-width: 1180px;
+    right: -14%;
+    top: 10%;
+    width: 60vw;
+    min-width: 38rem;
     max-height: 640px;
     object-fit: cover;
     z-index: 1;
@@ -122,7 +135,7 @@ header ul li a{
     position: relative;
     left:0;
     color: #ffffff;
-    font-size:55px;
+    font-size: 3.4375rem;
     z-index: 9;
 }
 
@@ -135,7 +148,7 @@ header ul li a{
 
 }
 #web_description{
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #ffffff;
     width: fit-content;
     padding: 5px;
@@ -152,14 +165,13 @@ header ul li a{
     height: 9%;
     display: flex;
     flex-wrap: wrap;
-    padding: 10px 0px;
     
 }
 
 .container2 .btn{
     position: absolute;
-    width: 155px;
-    height: 50px;
+    width: 9rem;
+    height: 3.5rem;
 }
 
 .container2 .btn a{
@@ -261,11 +273,11 @@ header ul li a{
 }
 
 .spacer{
-    aspect-ratio: 1700/945;
-    width: 1863px;
+    aspect-ratio: 900/450;
+    width: 100vw;
     background-repeat: no-repeat;
     background-size:cover;
-    z-index: 19000;
+    object-fit: cover;
     
 }
 
@@ -288,15 +300,15 @@ header ul li a{
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    padding-top: 100px;
+    padding-top: 5%;
 }
 
 .blob{
     position: absolute;
-    width: 500px;
-    height: 500px;
-    top: 390px;
-    left: 650px;
+    width: 25%;
+    height: 25%;
+    top: 40%;
+    left: 35%;
 }
 
 .blob:nth-child(2){
@@ -306,28 +318,27 @@ header ul li a{
 #about_website_title{
     position: relative;
     color: #ffffff;
-    font-size:55px;
+    font-size: 3.4375rem;
     z-index: 9;
-    padding-bottom: 10px;
+    padding-bottom: 0;
 }
 
 .container3{
     position: relative;
     border: transparent;
-    width: 900px;
-    padding: 20px 0px;
+    width: 45%;
+    padding: 8% 0;
     justify-content: space-between;
     text-align: center;
     z-index: 100;
-    top: 70px;
+    top: 15%;
 }
 
 #about_website{
-    font-size: 16px;
+    font-size: 1rem;
     color: #ffffff;
     width: fit-content;
-    padding: 5px;
-    top: 500px;
+    padding: 1%;
     display: block;
    
 }
