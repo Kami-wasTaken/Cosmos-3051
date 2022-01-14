@@ -734,6 +734,31 @@ header ul li a{
     }
 }
 
+#credits{
+    margin-top: 20%;
+    margin-bottom: 5%;
+    font-size: 0.75vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#info{
+    font-size: 0.8vw;
+    color: #BFBFBF;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+#ct{
+    font-size: 1vw;
+    color: #BFBFBF;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
 
 
 
