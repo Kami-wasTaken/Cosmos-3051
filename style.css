@@ -30,6 +30,10 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 100000;
+    opacity:0;
+    transform: translateY(-3rem);
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 0.2s;
 
 }
 
@@ -123,6 +127,10 @@ header ul li a{
     justify-content: top;
     align-items: left;
     margin: 0;
+    opacity:0;
+    transform: translateY(3rem);
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 0.2s;
 }
 
 
@@ -131,7 +139,7 @@ header ul li a{
     position: absolute;
     transform: rotate(-82deg);
     right: -10%;
-    top: 20%;
+    top: 15%;
     width: 60vw;
     min-width: 38rem;
     max-height: 640px;
@@ -308,7 +316,7 @@ header ul li a{
 .layer3 {
     background-image: url('./layered_wave_top.svg');
     object-fit: cover;
-    z-index: 10;
+    z-index: 19000;
 }
 
 .layer4 {
@@ -509,6 +517,10 @@ header ul li a{
     grid-template-columns: 50vw 40vw;
     grid-template-rows: 65vh 11vh 50vh;
     z-index: 20;
+    opacity:0;
+    transform: translateY(3rem);
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 0.2s;
 
 }
 
@@ -597,7 +609,7 @@ header ul li a{
     position: relative;
     display: grid;
     grid-template-columns: 50vw 50vw;
-    grid-template-rows: 35vh 10vh 70vh;
+    grid-template-rows: 35vh 10vh 30vh 70vh;
     z-index: 20;
     background-color: #C62368;
     z-index: 20;
@@ -617,7 +629,7 @@ header ul li a{
 .tvc{
     position: absolute;
     border: transparent;
-    width: 60vw;
+    width: 50vw;
     padding: 20px 0;
     padding-right: 100px;
     grid-row: 3;
@@ -640,7 +652,7 @@ header ul li a{
 #stellarengine{
     position: relative;
     display: grid;
-    grid-template-columns: 50vw 50vw;
+    grid-template-columns: 60vw 40vw;
     grid-template-rows: 30vh 10vh 60vh;
     z-index: 20;
     
@@ -677,6 +689,51 @@ header ul li a{
     margin-bottom: 10px;
 
 }
+
+.tvblob{
+    position: absolute;
+    grid-column: 2;
+    z-index: 190000;
+    grid-row: 3;
+    width: 105%
+}
+
+#tvpic{
+    position: absolute;
+    grid-column: 2;
+    z-index: 190000;
+    grid-row: 3;
+    width: 45vw;
+    margin: 25% 6%;
+
+}
+
+#sepic{
+    position: absolute;
+    grid-column: 2;
+    z-index: 190000;
+    grid-row: 2;
+    width: 35vw;
+
+    
+}
+
+#ampic{
+    position: absolute;
+    grid-column: 1;
+    z-index: 190000;
+    grid-row: 2;
+    width: 40vw;
+
+}
+
+@keyframes fadeInUp{
+    to{
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
 
 
 
